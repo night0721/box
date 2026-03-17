@@ -1,5 +1,5 @@
 # box
-Sandbox container to run untrusted programs with isolated namespaces and minimal cgroups
+Sandbox container to run untrusted programs with isolated namespaces and minimal cgroups.
 
 # Features
 - OverlayFS
