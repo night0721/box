@@ -14,7 +14,7 @@ INCS != $(PKG_CONFIG) --cflags $(PKGS)
 CFLAGS += -std=c99 -pedantic -Wall $(INCS)
 
 .c.o:
-	$(CC) -o $@ $(CFLAGS) $(LIBS) -c $<
+	$(CC) -o $@ $(CFLAGS) -c $<
 
 $(TARGET): $(TARGET).o
 	$(CC) -o $@ $(LIBS) $(TARGET).o
